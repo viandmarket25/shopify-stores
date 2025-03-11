@@ -1,0 +1,53 @@
+
+
+╭─ success ────────────────────────────────────────────────────────────────────╮
+│                                                                              │
+│  Storefront setup complete!                                                  │
+│                                                                              │
+│    Shopify:   Mock.shop                                                      │
+│    Language:  JavaScript                                                     │
+│    Routes:                                                                   │
+│      • Home (/ & /:catchAll)                                                 │
+│      • Page (/pages/:handle)                                                 │
+│      • Cart (/cart/* & /discount/*)                                          │
+│      • Products (/products/:handle)                                          │
+│      • Collections (/collections/*)                                          │
+│      • Policies (/policies & /policies/:handle)                              │
+│      • Blogs (/blogs/*)                                                      │
+│      • Account (/account/*)                                                  │
+│      • Search (/search)                                                      │
+│      • Robots (/robots.txt)                                                  │
+│      • Sitemap (/sitemap.xml & /sitemap/:type/:page.xml)                     │
+│                                                                              │
+│  Next steps                                                                  │
+│                                                                              │
+│    • Run `cd hydrogen-quickstart && npm run dev`                             │
+│                                                                              │
+╰────────────────────────────────────────────────────
+
+
+
+
+npm create @shopify/hydrogen@latest -- --quickstart
+
+npm install -g @shopify/cli @shopify/hydrogen
+
+
+shopify hydrogen dev
+
+
+
+- install hydrogen 
+
+
+npx shopify hydrogen link
+
+npx shopify hydrogen env pull
+
+
+
+npm run dev
+
+
+
+npx shopify hydrogen deploy
