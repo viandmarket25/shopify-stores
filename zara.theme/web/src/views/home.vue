@@ -1,7 +1,7 @@
 <template>
   <div class="min-h-screen pt-14"> <!-- Added pt-14 for header height -->
     <!-- Main Hero -->
-    <section class="relative h-screen overflow-hidden">
+    <section v-if="false" class="relative h-screen overflow-hidden">
       <video 
         autoplay 
         loop 
@@ -106,13 +106,13 @@ export default {
         {
           id: 1,
           title: 'SUMMER DRESSES',
-          image: '/collections/dresses.jpg',
+          image: 'https://static.zara.net/assets/public/d9c6/12d0/d8664ba98027/50c6ecc23c62/03443400330-e1/03443400330-e1.jpg?ts=1738841324461&w=370',
           link: '/collection/summer-dresses'
         },
         {
           id: 2,
           title: 'BASICS',
-          image: '/collections/basics.jpg',
+          image: 'https://static.zara.net/assets/public/dc17/673e/04c8460b9b8c/2f7cd38451b0/04341761721-000-a11/04341761721-000-a11.jpg?ts=1740146918551&w=504',
           link: '/collection/basics'
         }
       ],
@@ -121,13 +121,13 @@ export default {
           id: 1,
           title: 'Oversized Linen Shirt',
           price: '$49.90',
-          image: '/products/shirt.jpg'
+          image: 'https://static.zara.net/assets/public/e566/ebbf/8b6f46199604/f38c10724d44/04341755707-015-a11/04341755707-015-a11.jpg?ts=1740146516393&w=504'
         },
         {
           id: 2,
           title: 'High-Waist Trousers',
           price: '$69.90',
-          image: '/products/trousers.jpg'
+          image: 'https://static.zara.net/assets/public/974e/9067/d5994b5ea3bb/68b156453585/05479049681-a2/05479049681-a2.jpg?ts=1737041214596&w=504'
         }
       ]
     }
