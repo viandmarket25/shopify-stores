@@ -1,0 +1,512 @@
+.temp-image-container-holder {
+    height: 50px;
+    width: 98%;
+    position: relative;
+    float: left;
+    margin: 4px;
+    border-radius: 2px;
+    box-shadow: inset 0px 0px 0px 1px #eeeeee;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.temp-image-container-holder:hover {
+    opacity: 0.9;
+}
+
+.temp-image-container {
+    height: 40px;
+    width: 40px;
+   
+    position: relative;
+    float:left;
+    margin-right:20px;
+}
+
+.close-temp-image {
+    height: 30px;
+    width: 30px;
+    position: relative;
+    align-items: center;
+        vertical-align: middle;
+        justify-content: center;
+        text-align: center;
+        display: flex;
+}
+
+.close-temp-image-container {
+    height: 40px; float:right;
+    width: 40px;
+    box-shadow: inset 0px 0px 0px 1px #dddddd;
+    border-radius: 6px;
+    align-items: center;
+        vertical-align: middle;
+        justify-content: center;
+        text-align: center;
+        display: flex;
+    
+
+}
+
+
+.variation-add-icon{
+    height:16px;
+    width:16px;
+     margin-top:6px;
+}
+.temp-image {
+    height: 40px;
+    width: 40px;
+    position: relative;
+   
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.remove-container-holder{
+    width:60px; height:40px; float: right;
+
+
+}
+.file-name-container-holder{
+    width: 420px;
+    position:relative;
+    height: 40px; float:left;
+    line-height:40px;
+    font-size:12px;
+    font-family: Poppins-SemiBold;
+    color:#000000;
+   
+}
+
+
+
+
+
+.temp-image:hover {
+    opacity: 0.7;
+}
+
+.remove-image-button {
+    height: 16px;
+    width: 16px;
+    position: relative;
+  
+  
+    box-shadow: inset 0px 0px 0px 1px #eeeeee;
+    border-radius: 100px;
+    background: #eeeeee;
+}
+
+.remove-image-button:hover {
+    opacity: 0.8;
+}
+
+
+/************** product variation styles   ********background: #f0efeb;  box-shadow: 0px 0px 0px 1px #eeeeee; ******/
+
+.main-variation-base {
+    width: 600px;
+    min-height: 70px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-radius:6px;
+    position: relative;
+    white-space: nowrap;
+    display: block;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin-left: 0px;
+    /*background: rgba(51, 170, 51, .03);*/
+    box-shadow: inset 0px 0px 8px 1px #dddddd;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.main-variation-base-top {
+    width: 100%;
+    height: 50px;
+    float: left;
+}
+
+.main-variation-base-content-holder {
+    width: 100%;
+    min-height: 70px;
+    max-height: auto;
+    float: left;
+}
+
+.close-variation-base {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    float: right;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+
+
+/**********            ************/
+
+.main-variation-option-list-container {
+    width: 600px;
+    height: auto;
+    float: left;
+    margin-left: 0px;
+    white-space: nowrap;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.main-variation-option-container {
+    width: auto;
+    height: auto;
+    float: left;
+    border-radius: 8px;
+   
+    margin-top: 10px;
+    padding: 2px;
+    padding-right: 20px;
+}
+
+.variation-option-data {
+    width: 140px;
+    min-height: 40px;
+    max-height: 100px;
+    overflow-y: scroll;
+    resize: vertical;
+    background: #ffffff;
+    outline: none;
+    box-shadow: inset 0px 0px 4px 1px #dddddd;
+    border-radius: 6px;
+    color: #606060;
+    margin-right:4px;
+    outline: none;
+    padding-right: 10px;
+    font-family: Poppins-Medium;
+    cursor: text;
+    padding-left: 10px;
+    float: left;
+    line-height: 15px;
+    text-align: left;
+    font-size: 12px;
+}
+
+.variation-option-price {
+    width: 116px;
+    height: 40px;
+    color: #606060;
+    border-radius: 6px;
+    outline: none;
+    cursor: text;
+    outline:none;
+    margin-right:4px;
+    border: none;
+    box-shadow: inset 0px 0px 4px 1px #dddddd;
+    float: left;
+    line-height: 40px;
+    padding-left: 10px;
+    text-align: left;
+    background: #fafafa;
+    font-size: 12px;
+    content: attr(data-text)
+}
+
+
+/*
+.variation-option-price:before {
+    content: "0.00";
+}
+
+*/
+
+.remove-variation-option-button-container {
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+    outline: none;
+    float: left;
+    box-shadow:inset 0px 0px 4px 1px #dddddd;
+    line-height: 40px;
+   
+    align-items: center;
+        vertical-align: middle;
+        justify-content: center;
+        text-align: center;
+        display: flex;
+}
+
+.remove-variation-option-button {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    position: relative;
+  
+    border-radius: 6px;
+    padding: 2px;
+}
+
+.remove-variation-option-button:hover {
+    opacity: 0.8;
+   
+}
+.image-variation-container{
+    float:left; 
+    box-shadow: inset 0px 0px 4px 1px #dddddd;
+    height:40px;
+    width:40px;
+  
+
+    overflow:hidden;
+    margin-right:4px;
+}
+
+
+/*******                    ******/
+
+.image-variation-main-variation-option-container {
+    width: 600px;
+    height: 50px;
+    float: left;
+    border-radius: 6px;
+    position: relative;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-bottom: 4px;
+
+    margin-bottom: 10px;
+    padding-right: 0px;
+    background: #fafafa;
+    cursor: pointer;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.image-variation-variation-option-data {
+    width: 130px;
+    min-height: 40px;
+    max-height: 100px;
+    overflow-y: scroll;
+    background: #ffffff;
+    white-space: pre-wrap;
+    resize: vertical;
+    border-radius: 6px;
+    outline: none;
+box-shadow: inset 0px 0px 4px 1px #dddddd;
+    font-family: Poppins-Medium;
+    padding-right: 10px;
+    padding-left: 10px;
+    float: left;
+   
+    cursor: text;
+    line-height: 15px;
+
+    margin-right:4px;
+    text-align: left;
+    float: left;
+    font-size: 11px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.image-variation-variation-option-price-label {
+    width: 30px;
+    height: 40px;
+    margin-left: 0px;
+    outline: none;
+    float: left;
+    line-height: 40px;
+    padding-left: 10px;
+    border-radius: 6px;
+    font-family: Poppins-SemiBold;
+    cursor: text;
+    text-align: left;
+    box-shadow:inset 0px 0px 0px 1px #dddddd;
+    float: left;
+    font-size: 14px;
+}
+
+.image-variation-variation-option-price-label-text {
+    width: 30px;
+    height: 40px;
+    margin-left: 4px;
+    outline: none;
+    float: left;
+    line-height: 40px;
+    opacity: 0.7;
+    font-family: Poppins-SemiBold;
+    padding-left: 10px;
+    border-radius: 6px;
+    cursor: text;
+    text-align: left;
+    box-shadow:inset 0px 0px 0px 1px #dddddd;
+    float: left;
+    font-size: 14px;
+    margin-top: 0px;
+}
+
+.image-variation-variation-option-price {
+    width: 100px;
+    height: 40px;
+    margin-right: 4px;
+    outline: none;
+    border-radius:6px;
+    float: left;
+    border: none;
+    box-shadow: inset 0px 0px 4px 1px #dddddd;
+    line-height: 40px;
+    padding-left: 10px;
+    cursor: text;
+    text-align: left;
+    float: left;
+    font-size: 12px;
+   
+}
+
+.image-variation-remove-variation-option-button-container {
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+    outline: none;
+    float: left;
+    line-height: 40px;
+    box-shadow: inset 0px 0px 4px 1px #dddddd;
+   
+    align-items: center;
+        vertical-align: middle;
+        justify-content: center;
+        text-align: center;
+        display: flex;
+}
+
+.image-variation-remove-variation-option-button {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    position: relative;
+
+    border-radius: 8px;
+
+}
+
+.image-variation-remove-variation-option-button:hover {
+    opacity: 0.8;
+}
+
+.image-variation-variation-image-data {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    float: left;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.image-variation-variation-image-data:hover {
+    opacity: 0.8;
+}
+
+
+/******************                       ******************/
+
+.single-variation-base-list {
+    width: 602px;
+    height: 100%;
+    background: #fcfcfc;
+    border: 2px dotted #cccccc;
+    overflow-y: scroll;
+}
+
+.single-variation-name-container {
+    width: 100%;
+    height: 50px;
+    float: left;
+    padding-top: 4px;
+    margin-top: 10px;
+}
+
+.single-variation-name-data {
+    width: 596px;
+    height: 50px;
+
+   
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom:10px;
+    margin-left:2px;
+    font-size:13px;
+    font-family:Poppins-Medium;
+    float: left;
+    outline: none;
+    border: none;
+    box-shadow: inset 0 0 6px 1px #dddddd;
+    position: relative;
+    
+}
+
+.single-variation-control-container {
+    width: 100%;
+    height: 70px;
+    float: left;
+    padding-top: 4px;
+    margin-top: 30px;
+}
+
+.single-variation-control-holder {
+    width: 600px;
+    height: 50px;
+    border-radius:6px;
+    float: left;
+    margin-left: 0px;
+    cursor:pointer;
+    
+    box-shadow:inset 0 0 0 1px #dddddd;
+    align-items: center;
+        vertical-align: middle;
+        justify-content: center;
+        text-align: center;
+        display: flex;
+}
+
+.single-variation-button-holder {
+    width: 50px;
+    height: 40px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-right: 10px;
+    border: 2px dotted #eeeeee;
+    cursor: pointer;
+    float: left;
+    line-height: 34px;
+}
+
+.single-one-more-variation-option {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    position: relative;
+}
+
+.variation-photo-input-file {
+    top:-40px;
+    float: left; width:100%; height:100%;
+    background-color: #606060;
+}
+
+.single-variation-label {
+    width: 180px;
+    height: 44px;
+    border-radius: 8px;
+    margin-right: 10px;
+    float: left;
+    line-height: 44px;
+}
+
+
+/******  :empty:not(:focus):before     **/
+
+.variation-option-price:empty(:focus):before {
+    content: attr(data-text)
+}

@@ -51,3 +51,20 @@ npm run dev
 
 
 npx shopify hydrogen deploy
+
+
+
+npx @tailwindcss/cli init -p
+
+
+npm install -D tailwindcss@3 postcss autoprefixer
+npx tailwindcss init -p
+
+
+
+
+
+
+npm install -D tailwindcss
+npx tailwindcss init
+npx tailwindcss -i ./tailwind.css -o ./assets/style.css --watch
