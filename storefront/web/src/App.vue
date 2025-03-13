@@ -1,4 +1,3 @@
-
 <template>
   <!---  background-color: rgb(251, 248, 204, 0.04);-->
   <div class=" " style=" ">
@@ -20,12 +19,13 @@ import Header from "./components/header.vue"
    import AnimatedText from "./components/animated-text.vue"
    import WelcomeAnimated from "./components/welcome-animated.vue"
    import Satisfaction from "./components/satisfy.vue"
+   import ProductList from './components/ProductList.vue'
 
 export default {
   name: 'MarketingPage',
   components:{
     Header,Footer,AnimatedText, WelcomeAnimated,
-    Satisfaction
+    Satisfaction, ProductList
   }
 }
 </script>

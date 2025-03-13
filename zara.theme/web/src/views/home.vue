@@ -68,33 +68,20 @@
     <section class="py-16 bg-gray-50">
       <div class="container mx-auto px-4">
         <h2 class="text-center text-2xl tracking-widest mb-12">NEW ARRIVALS</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          <div v-for="product in newProducts" 
-               :key="product.id"
-               class="group cursor-pointer"
-          >
-            <div class="relative overflow-hidden">
-              <img 
-                :src="product.image" 
-                :alt="product.title"
-                class="w-full aspect-[3/4] object-cover transition-transform duration-700 group-hover:scale-105"
-              >
-              <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-10 transition-all duration-300"></div>
-            </div>
-            <div class="mt-4 text-center">
-              <p class="text-sm tracking-wider">{{ product.title }}</p>
-              <p class="text-sm text-gray-600 mt-2">{{ product.price }}</p>
-            </div>
-          </div>
-        </div>
+        <ProductList />
       </div>
     </section>
   </div>
 </template>
 
 <script>
+import ProductList from '../components/ProductList.vue'
+
 export default {
   name: 'Home',
+  components: {
+    ProductList
+  },
   data() {
     return {
       categories: [
@@ -114,20 +101,6 @@ export default {
           title: 'BASICS',
           image: 'https://static.zara.net/assets/public/dc17/673e/04c8460b9b8c/2f7cd38451b0/04341761721-000-a11/04341761721-000-a11.jpg?ts=1740146918551&w=504',
           link: '/collection/basics'
-        }
-      ],
-      newProducts: [
-        {
-          id: 1,
-          title: 'Oversized Linen Shirt',
-          price: '$49.90',
-          image: 'https://static.zara.net/assets/public/e566/ebbf/8b6f46199604/f38c10724d44/04341755707-015-a11/04341755707-015-a11.jpg?ts=1740146516393&w=504'
-        },
-        {
-          id: 2,
-          title: 'High-Waist Trousers',
-          price: '$69.90',
-          image: 'https://static.zara.net/assets/public/974e/9067/d5994b5ea3bb/68b156453585/05479049681-a2/05479049681-a2.jpg?ts=1737041214596&w=504'
         }
       ]
     }

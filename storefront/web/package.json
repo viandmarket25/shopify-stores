@@ -24,7 +24,10 @@
     "vue-cookies": "^1.7.4",
     "vue-router": "^4.2.3",
     "vue3-carousel": "^0.3.3",
-    "vue3-cookies": "^1.0.6"
+    "vue3-cookies": "^1.0.6",
+    "@shopify/shopify-api": "^7.5.0",
+    "shopify-buy": "^2.19.0",
+    "graphql": "^16.7.1"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.1.0",
